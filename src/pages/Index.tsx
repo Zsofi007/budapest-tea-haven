@@ -1,9 +1,11 @@
 import Navigation from "@/components/Navigation";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import TeaMenu from "@/components/TeaMenu";
-import Visit from "@/components/Visit";
-import Footer from "@/components/Footer";
+import Hero from "@/components/Sirius/Hero";
+import About from "@/components/Sirius/About";
+import AboutTea from "@/components/Sirius/AboutTea";
+import TeaMenu from "@/components/Sirius/TeaMenu";
+import Visit from "@/components/Sirius/Visit";
+import Footer from "@/components/Sirius/Footer";
+import OtherTeahouse from "@/components/Sirius/OtherTeahouse";
 
 const Index = () => {
   return (
@@ -11,8 +13,10 @@ const Index = () => {
       <Navigation />
       <Hero />
       <About />
+      <AboutTea />
       <TeaMenu />
       <Visit />
+      <OtherTeahouse otherTeahousePath="/altair" otherTeahouseName="Altair Teaház" />
       <Footer />
     </div>
   );

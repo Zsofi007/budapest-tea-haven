@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "about": "About Us",
+    "tea": "About Tea",
+    "menu": "Our Offerings",
+    "visit": "Visit Us"
+  },
+  "hero": {
+    "location": "Palotanegyed, Budapest",
+    "title": "Sirius Teaház",
+    "subtitle": "Discover the magical world of tea in a cozy, homey environment. Choose from nearly 80 types of tea from almost every corner of the world.",
+    "ctaMenu": "Our Tea Selection",
+    "ctaVisit": "Visit Us"
+  },
+  "about": {
+    "sectionLabel": "About Us",
+    "title": "The History of Sirius Teaház",
+    "history1": "The founding idea of the Sirius Club was born on December 25, 2001. After five months of intense work, it opened on June 1, 2002, and operated as a private club for half a year. This period was at least as adventurous as the 20th century in human history.",
+    "history2": "After several smaller and larger changes, it acquired its current character by May 2003.",
+    "history3": "The main considerations in creating the Teaház were variety, versatility, coziness, comfort, three-dimensional utilization, creative solutions, and lots of manual work.",
+    "history4": "Our guests can choose from nearly 80 types of tea from almost every corner of the world, taste our special coffees made from Central American coffee, or enjoy other offerings. All this can be done sitting on chairs, benches, cushions, or comfortably lounging on one of the galleries.",
+    "history5": "Children's games can be found in the play area, and adult games on the bookshelf. There are opportunities for screenings, various presentations, and we are happy to host art exhibitions as well. Furthermore, everyone can read what is written in the 1000-page great book!",
+    "features": {
+      "tea80": {
+        "title": "80+ Types of Tea",
+        "description": "Selected teas from almost every corner of the world."
+      },
+      "coffee": {
+        "title": "Special Coffees",
+        "description": "Unique coffees made from Central American coffee beans."
+      },
+      "cozy": {
+        "title": "Cozy Environment",
+        "description": "Chairs, benches, cushions, galleries - choose as you like."
+      },
+      "books": {
+        "title": "Books and Games",
+        "description": "Children's and adult games, books, and a 1000-page great book."
+      },
+      "community": {
+        "title": "Community Space",
+        "description": "Home to screenings, presentations, and art exhibitions."
+      },
+      "since2002": {
+        "title": "Since 2002",
+        "description": "The Sirius Club was born on December 25, 2001, and opened on June 1, 2002."
+      }
+    }
+  },
+  "tea": {
+    "sectionLabel": "About Tea",
+    "title": "The World of Tea",
+    "intro": "Tea is a plant native to Asia (Camellia Sinensis), from whose leaves various teas are made. We classify teas into three main groups: black teas, oolong teas, and green teas. The difference comes from the processing method.",
+    "types": {
+      "black": {
+        "name": "Black Teas",
+        "description": "Black teas are fermented the longest. The processing process: withering (the tea loses most of its moisture content here), rolling (the tea leaves are rolled together), fermentation (the leaves are left to stand for a certain period at the appropriate temperature so that the natural chemical processes initiated by rolling can exert their effect to the necessary extent)."
+      },
+      "oolong": {
+        "name": "Oolong Teas",
+        "description": "For oolong, or yellow tea, the process is the same as for black teas, only the fermentation time is shorter."
+      },
+      "green": {
+        "name": "Green Teas",
+        "description": "Green teas are not fermented at all. The type of tea is also determined by the harvest time of the tea and which leaf of the tea plant it is made from."
+      }
+    },
+    "other": {
+      "title": "Other Tea Types",
+      "herbal": {
+        "name": "Herbal Teas",
+        "description": "They are made from various medicinal herbs, and the preparation method can be varied. Of course, most of the teas mentioned above also have health-protective and healing effects, but their base is not medicinal herbs, but the tea plant."
+      },
+      "fruit": {
+        "name": "Fruit Teas",
+        "description": "They are made from infusions of various fruits."
+      },
+      "rooibos": {
+        "name": "Rooibos Tea",
+        "description": "A popular, light, flavorful drink from South Africa. It is increasingly popular and sought after in Europe. The plant is native to the Cape province of South Africa, and in its natural state it can only be found here, in the microclimate of the Cadarberg mountain region. Its processing is the same as black tea. Since rooibos tea contains no caffeine and is low in tannin, it is calming and particularly recommended for irritability, headaches, sleep disorders, insomnia, and depression."
+      }
+    }
+  },
+  "menu": {
+    "sectionLabel": "Tea Selection",
+    "title": "Our Selected Teas",
+    "subtitle": "Choose from nearly 80 types of tea from almost every corner of the world, from classics to exotic flavors.",
+    "categories": {
+      "black": {
+        "name": "Black Teas",
+        "description": "Strong, classic flavors, fully fermented",
+        "items": ["Earl Grey", "Darjeeling", "Assam", "Ceylon", "Lapsang Souchong", "Keemun", "Yunnan"]
+      },
+      "oolong": {
+        "name": "Oolong Teas",
+        "description": "Medium processing, complex aromas",
+        "items": ["Tie Guan Yin", "Da Hong Pao", "Dong Ding", "Milk Oolong", "Jin Xuan"]
+      },
+      "green": {
+        "name": "Green Teas",
+        "description": "The best of Japanese and Chinese traditions, unfermented",
+        "items": ["Sencha", "Gyokuro", "Matcha", "Lung Ching", "Biluochun", "Gunpowder", "Jasmine Green"]
+      },
+      "white": {
+        "name": "White Teas",
+        "description": "Delicate, soft aromas, minimal processing",
+        "items": ["Bai Mu Dan", "Silver Needle", "Shou Mei", "Jasmine White"]
+      },
+      "puerh": {
+        "name": "Pu-erh Teas",
+        "description": "Fermented, complex flavor profile",
+        "items": ["Sheng Pu-erh", "Shou Pu-erh", "Aged Pu-erh"]
+      },
+      "fruit": {
+        "name": "Fruit Teas",
+        "description": "Refreshing, fruity variations",
+        "items": ["Forest Fruits", "Citrus Mix", "Tropical Dream", "Strawberry Vanilla", "Raspberry"]
+      },
+      "herbal": {
+        "name": "Herbal Teas",
+        "description": "Health-protective medicinal herbs",
+        "items": ["Chamomile", "Mint", "Lemon Balm", "Green Tea Mix", "Relaxing Blend"]
+      },
+      "rooibos": {
+        "name": "Rooibos Teas",
+        "description": "Caffeine-free, calming effect",
+        "items": ["Classic Rooibos", "Vanilla Rooibos", "Lemon Rooibos", "Rooibos Chai"]
+      }
+    },
+    "footer": "...and many more! Ask for our complete tea selection on site."
+  },
+  "visit": {
+    "sectionLabel": "Visit Us",
+    "title": "Meet Us at the Teahouse",
+    "address": {
+      "label": "Address",
+      "line1": "1088 Budapest",
+      "line2": "Bródy Sándor u. 13.",
+      "note": "Our teahouse is located in Palotanegyed, a few minutes' walk from Kálvin tér, Astoria, or Rákóczi tér."
+    },
+    "hours": {
+      "label": "Opening Hours",
+      "text": "Every day: 12:00 - 22:00"
+    },
+    "phone": {
+      "label": "Phone",
+      "number": "+36-1-266-1708"
+    }
+  },
+  "footer": {
+    "name": "Sirius Teaház",
+    "description": "The magical world of tea in the heart of Budapest. In Palotanegyed, a few minutes' walk from Kálvin tér.",
+    "contact": "Contact",
+    "follow": "Follow Us",
+    "copyright": "© {year} Sirius Teaház. All rights reserved."
+  },
+  "otherTeahouse": {
+    "title": "Visit Our Other Teahouse",
+    "description": "Discover our other teahouse, where you'll find the same cozy atmosphere.",
+    "cta": "Learn More"
+  },
+  "altair": {
+    "hero": {
+      "location": "Palotanegyed, Budapest",
+      "title": "Altair Teaház",
+      "subtitle": "The Altair star means: flying eagle. Discover the magical world of tea in a cozy, homey environment.",
+      "ctaMenu": "Our Tea Selection",
+      "ctaVisit": "Visit Us"
+    },
+    "about": {
+      "sectionLabel": "About Us",
+      "title": "Altair Teaház",
+      "description": "The Altair star means: flying eagle. We will continue our article on December 4, 2027, until then, enjoy your tea everyone!",
+      "reservation": {
+        "title": "Table Reservation",
+        "description": "You can make a table reservation by phone during opening hours."
+      }
+    },
+    "visit": {
+      "sectionLabel": "Visit Us",
+      "title": "Meet Us at the Teahouse",
+      "address": {
+        "label": "Address",
+        "line1": "1088 Budapest",
+        "line2": "Bródy Sándor u. - Puskin u. corner",
+        "line3": "entrance from Puskin street",
+        "note": "Our teahouse is located in Palotanegyed, next to the Hungarian National Museum, a few minutes' walk from Kálvin tér or Astoria."
+      },
+      "hours": {
+        "label": "Opening Hours",
+        "text": "Every day: 14:00 - 22:00"
+      },
+      "phone": {
+        "label": "Phone",
+        "number": "+36 20 249 9872"
+      }
+    },
+    "footer": {
+      "name": "Altair Teaház",
+      "description": "The magical world of tea in the heart of Budapest. In Palotanegyed, next to the Hungarian National Museum.",
+      "contact": "Contact",
+      "follow": "Follow Us",
+      "copyright": "© {year} Altair Teaház. All rights reserved."
+    }
+  }
+}

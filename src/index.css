@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Nunito:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,49 +10,70 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Warm cream background */
-    --background: 40 30% 96%;
-    --foreground: 25 30% 15%;
+    /* Bright brown/orange background (Sirius theme) */
+    --background: 25 35% 8%;
+    --foreground: 25 15% 96%;
 
-    /* Soft ivory cards */
-    --card: 40 25% 98%;
-    --card-foreground: 25 30% 15%;
+    /* Bright brown/orange cards */
+    --card: 25 30% 12%;
+    --card-foreground: 25 15% 96%;
 
-    --popover: 40 25% 98%;
-    --popover-foreground: 25 30% 15%;
+    --popover: 25 30% 12%;
+    --popover-foreground: 25 15% 96%;
 
-    /* Warm amber primary */
-    --primary: 30 70% 45%;
-    --primary-foreground: 40 30% 98%;
+    /* Premium gold/brass primary accent */
+    --primary: 38 85% 55%;
+    --primary-foreground: 25 35% 8%;
 
-    /* Soft terracotta secondary */
-    --secondary: 20 40% 88%;
-    --secondary-foreground: 25 30% 20%;
+    /* Bright brown/orange secondary */
+    --secondary: 25 25% 16%;
+    --secondary-foreground: 25 15% 92%;
 
-    /* Muted warm tones */
-    --muted: 35 20% 90%;
-    --muted-foreground: 25 15% 45%;
+    /* Muted premium brown/orange tones */
+    --muted: 25 25% 14%;
+    --muted-foreground: 25 15% 72%;
 
-    /* Sage green accent */
-    --accent: 140 25% 35%;
-    --accent-foreground: 40 30% 98%;
+    /* Premium gold accent */
+    --accent: 38 80% 52%;
+    --accent-foreground: 25 15% 96%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 40 30% 98%;
+    --destructive-foreground: 25 35% 8%;
 
-    /* Warm borders */
-    --border: 30 20% 85%;
-    --input: 30 20% 85%;
-    --ring: 30 70% 45%;
+    /* Bright brown/orange borders */
+    --border: 25 25% 20%;
+    --input: 25 25% 20%;
+    --ring: 38 85% 55%;
 
     --radius: 0.75rem;
 
-    /* Tea house specific colors */
-    --tea-amber: 35 85% 55%;
-    --tea-brown: 25 45% 25%;
-    --tea-cream: 40 40% 94%;
-    --tea-terracotta: 15 50% 50%;
-    --tea-sage: 140 25% 40%;
+    /* Premium dimensional shadows with orange/amber glow */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5), 0 0 4px rgba(251, 146, 60, 0.1);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.6), 0 2px 4px rgba(0, 0, 0, 0.5), 0 0 8px rgba(251, 146, 60, 0.15), 0 0 4px rgba(217, 119, 6, 0.12);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.7), 0 4px 6px rgba(0, 0, 0, 0.6), 0 0 15px rgba(251, 146, 60, 0.2), 0 0 8px rgba(217, 119, 6, 0.15);
+    --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.8), 0 10px 10px rgba(0, 0, 0, 0.7), 0 0 25px rgba(251, 146, 60, 0.25), 0 0 12px rgba(217, 119, 6, 0.18);
+    --shadow-2xl: 0 25px 50px rgba(0, 0, 0, 0.9), 0 0 40px rgba(251, 146, 60, 0.3), 0 0 20px rgba(217, 119, 6, 0.2);
+    --shadow-inner: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+
+    /* Premium tea house colors - bright brown/orange with gold accents */
+    --tea-amber: 38 85% 55%;        /* Premium gold */
+    --tea-brown: 25 35% 18%;        /* Bright brown */
+    --tea-cream: 25 20% 88%;        /* Light cream */
+    --tea-terracotta: 18 70% 50%;   /* Warm accent */
+    --tea-sage: 25 30% 25%;         /* Muted brown */
+    --tea-gold: 38 80% 52%;         /* Premium gold */
+    --tea-orange: 25 85% 58%;       /* Bright orange */
+    --tea-dark: 25 40% 6%;          /* Deepest brown */
+    --tea-wood: 25 30% 14%;         /* Premium brown */
+    --tea-black: 25 35% 10%;        /* Deep brown-black */
+    --tea-yellow: 45 70% 45%;       /* Muted gold */
+    
+    /* Altair specific colors - sky, air, eagle theme */
+    --altair-sky: 210 40% 45%;      /* Sky blue */
+    --altair-cloud: 210 30% 75%;    /* Light cloud */
+    --altair-eagle: 25 50% 40%;     /* Eagle brown */
+    --altair-sunset: 30 60% 55%;    /* Sunset orange */
+    --altair-light: 210 25% 85%;    /* Light sky */
   }
 
   .dark {
@@ -84,14 +107,100 @@ All colors MUST be HSL.
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Nunito:wght@300;400;500;600&display=swap');
-
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   * {
     @apply border-border;
   }
 
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: "kern" 1, "liga" 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  /* Dimensional elevation utilities */
+  .elevation-1 {
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .elevation-2 {
+    box-shadow: var(--shadow-md);
+  }
+  
+  .elevation-3 {
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .elevation-4 {
+    box-shadow: var(--shadow-xl);
+  }
+  
+  .elevation-5 {
+    box-shadow: var(--shadow-2xl);
+  }
+
+  /* Smooth transitions */
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Bright brown/orange glassmorphism effect (Sirius theme) */
+  .glass {
+    background: rgba(20, 10, 6, 0.9);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border: 1px solid rgba(251, 146, 60, 0.25);
+    box-shadow: 0 0 20px rgba(251, 146, 60, 0.1), 0 0 10px rgba(217, 119, 6, 0.08);
+  }
+  
+  /* Deep forest green glassmorphism effect (Altair theme) */
+  .glass-altair {
+    background: rgba(6, 20, 14, 0.9);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border: 1px solid rgba(34, 197, 94, 0.25);
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.1), 0 0 10px rgba(217, 119, 6, 0.08);
+  }
+
+  /* Premium dimensional button with gold/orange glow (Sirius theme) */
+  .btn-dimensional {
+    background: linear-gradient(135deg, hsl(38, 85%, 55%) 0%, hsl(38, 75%, 48%) 100%);
+    box-shadow: 
+      0 4px 6px rgba(0, 0, 0, 0.6),
+      0 2px 4px rgba(0, 0, 0, 0.5),
+      inset 0 1px 0 rgba(255, 230, 150, 0.4),
+      0 0 25px rgba(217, 119, 6, 0.4),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.4),
+      0 0 12px rgba(251, 146, 60, 0.25);
+    transform: translateY(0);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .btn-dimensional:hover {
+    transform: translateY(-2px);
+    box-shadow: 
+      0 10px 15px rgba(0, 0, 0, 0.7),
+      0 4px 6px rgba(0, 0, 0, 0.6),
+      inset 0 1px 0 rgba(255, 240, 180, 0.5),
+      0 0 40px rgba(217, 119, 6, 0.6),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.5),
+      0 0 20px rgba(251, 146, 60, 0.35);
+  }
+
+  .btn-dimensional:active {
+    transform: translateY(0);
+    box-shadow: 
+      0 2px 4px rgba(0, 0, 0, 0.6),
+      inset 0 2px 4px rgba(0, 0, 0, 0.5),
+      0 0 15px rgba(217, 119, 6, 0.4),
+      0 0 8px rgba(251, 146, 60, 0.25);
   }
 }
