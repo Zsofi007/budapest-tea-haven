@@ -33,6 +33,8 @@ const Hero = () => {
           {/* Overlay for portrait side */}
           <div className="absolute inset-0 bg-gradient-to-r from-tea-dark/50 via-tea-wood/40 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/30" />
+          {/* Green tint for mobile view to improve text readability */}
+          <div className="absolute inset-0 md:hidden bg-gradient-to-b from-emerald-900/30 via-emerald-800/20 to-emerald-900/25" />
         </div>
         
         {/* Content side background */}
